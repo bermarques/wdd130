@@ -112,3 +112,25 @@ nav.sociallinks a {
 .sociallinks img {
   width: 40px;
 }
+
+.history {
+  display: grid;
+  grid-template-columns: 1fr 250px 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.history img {
+  width: 250px;
+  height: auto;
+}
+
+.adventures {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 40px;
+}
