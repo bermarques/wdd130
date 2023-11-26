@@ -108,6 +108,7 @@ nav.sociallinks a {
 }
 .sociallinks {
   display: flex;
+  align-items: center;
 }
 .sociallinks img {
   width: 40px;
@@ -133,4 +134,20 @@ h2 {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 40px;
+}
+
+figcaption {
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+footer > p {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  transform: translateX(115px);
 }
