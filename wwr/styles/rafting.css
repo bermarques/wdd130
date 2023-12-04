@@ -184,7 +184,9 @@ form {
   padding: 20px;
 }
 
-.form-container {
+.contact-page h1 {
+  margin: 32px auto;
+  text-align: center;
 }
 
 .sider {
