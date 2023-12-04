@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>White Water Rafting - Contact Us! | WDD 130</title>
+    <meta name="description" content="Contact white water rafting company" />
+    <meta name="author" content="Bernardo Marques" />
+    <link rel="stylesheet" href="styles/rafting.css" />
+  </head>
+  <body>
+    <header>
+      <img src="images/logo.jpeg" alt="Logo" />
+      <nav>
+        <ul class="navigation">
+          <li>
+            <a href="/wwr/index.html">Home</a>
+          </li>
+          <li>
+            <a href="/wwr/about.html">About Us</a>
+          </li>
+          <li>
+            <a href="/wwr/trips.html">Trips</a>
+          </li>
+          <li>
+            <a href="/wwr/contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="employees">
+        <figure>
+          <img
+            src="images/employee-1.jfif"
+            height="200"
+            width="200"
+            alt="Alton Johnny image"
+          />
+          <figcaption>
+            Alton Johnny<br />
+            CEO
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            src="images/employee-2.jfif"
+            height="200"
+            width="200"
+            alt="Antony Wilfor image"
+          />
+          <figcaption>
+            Antony Wilford<br />
+            Manager
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            src="images/employee-3.jfif"
+            height="200"
+            width="200"
+            alt="Kiaran Emil image"
+          />
+          <figcaption>
+            Kiaran Emil
+            <br />
+            Instructor
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            src="images/employee-4.jfif"
+            height="200"
+            width="200"
+            alt="Farrel Declan image"
+          />
+          <figcaption>
+            Farrell Declan <br />
+            Instructor
+          </figcaption>
+        </figure>
+      </div>
+
+      <section class="container">
+        <form>
+          <div class="form-container">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" />
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" />
+            <div class="radio-container">
+              <p>Purpose of the message</p>
+              <div>
+                <input
+                  type="radio"
+                  id="general-inquiry"
+                  name="purpose"
+                  value="email"
+                />
+                <label for="general-inquiry">General Inquiry</label>
+              </div>
+
+              <div>
+                <input
+                  type="radio"
+                  id="reservation-question"
+                  name="purpose"
+                  value="phone"
+                />
+                <label for="reservation-question">Reservation Question</label>
+              </div>
+
+              <div>
+                <input
+                  type="radio"
+                  id="website-suggestion"
+                  name="purpose"
+                  value="mail"
+                />
+                <label for="website-suggestion">Website Sugestion</label>
+              </div>
+            </div>
+            <label for="message">Message</label>
+            <textarea name="message" id="message"> </textarea>
+
+            <input type="checkbox" name="subscribe" id="subscribe" />
+            <label for="subscribe"
+              >Please subscribe me to the monthly newsletter</label
+            >
+            <input type="submit" value="Submit" />
+          </div>
+        </form>
+
+        <div class="sider">
+          <h3>Address</h3>
+          <p>
+            1251 Academy Road <br />
+            Long Creek, SC 29658
+          </p>
+          <h3>Phone number</h3>
+          <p>+55 53 99138-2575</p>
+          <h3>E-mail</h3>
+          <p>whitewater@rafting.com</p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3276.601439660828!2d-83.2478616!3d34.790807599999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8858e9ded5e5e6c5%3A0x99c27b74547b28a2!2s1251%20State%20Rd%20S-37-14%2C%20Long%20Creek%2C%20SC%2029658%2C%20EUA!5e0!3m2!1spt-BR!2sbr!4v1701662730776!5m2!1spt-BR!2sbr"
+            height="450"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy;2023 | White Water Rafting | Bernardo Marques</p>
+      <nav class="sociallinks">
+        <a href="https://facebook.com" target="_blank">
+          <img src="images/facebook.svg" alt="Facebook" />
+        </a>
+        <a href="https://twitter.com" target="_blank">
+          <img src="images/twitter.svg" alt="Twitter" />
+        </a>
+        <a href="https://instagram.com" target="_blank">
+          <img src="images/instagram.svg" alt="Instagram" />
+        </a>
+      </nav>
+    </footer>
+  </body>
+</html>

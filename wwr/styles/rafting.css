@@ -151,3 +151,83 @@ footer > p {
   flex: 1;
   transform: translateX(115px);
 }
+
+.employees {
+  display: flex;
+  justify-content: center;
+  background: #43271c70;
+}
+
+.employees figcaption {
+  font-weight: 700;
+  font-size: 18px;
+}
+.employees figure {
+  width: 300px;
+  text-align: center;
+  padding: 40px 0 15px;
+  border-radius: 4px;
+}
+
+.employees p {
+  margin-top: 0;
+}
+
+.container {
+  display: flex;
+  gap: 40px;
+  margin: 40px 0;
+}
+
+form {
+  flex: 2;
+  padding: 20px;
+}
+
+.form-container {
+}
+
+.sider {
+  flex: 1;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 16px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.radio-container {
+  margin: 24px 0;
+}
+
+.radio-container div {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 12px 0;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 14px 20px;
+  margin: 32px 0 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+iframe {
+  border: 0;
+  width: 80%;
+}
