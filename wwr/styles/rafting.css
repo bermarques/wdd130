@@ -217,7 +217,7 @@ textarea {
   margin: 12px 0;
 }
 
-input[type="submit"] {
+input[type="button"] {
   width: 100%;
   background-color: var(--secondary-color);
   color: white;
@@ -232,4 +232,8 @@ input[type="submit"] {
 iframe {
   border: 0;
   width: 80%;
+}
+
+.wireframe-link {
+  z-index: 2;
 }
