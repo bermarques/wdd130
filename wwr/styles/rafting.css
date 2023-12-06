@@ -217,7 +217,7 @@ textarea {
   margin: 12px 0;
 }
 
-input[type="button"] {
+button {
   width: 100%;
   background-color: var(--secondary-color);
   color: white;
