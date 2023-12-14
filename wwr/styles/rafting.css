@@ -237,3 +237,45 @@ iframe {
 .wireframe-link {
   z-index: 2;
 }
+
+.trips-title {
+  text-align: center;
+}
+
+.trip-container {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  gap: 40px;
+  margin: 0 auto 80px auto;
+}
+
+.trip-container div {
+  flex: 1;
+}
+
+.trip-container img {
+  width: 100%;
+}
+
+.main-call {
+  background: var(--nav-hover-background-color);
+  padding: 3rem 0;
+  text-align: center;
+}
+.main-call h1 {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.main-call button {
+  width: 230px;
+}
+
+.home-about a {
+}
+.home-about button {
+  width: 200px;
+  margin: 0 auto;
+}
